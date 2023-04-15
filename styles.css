@@ -1,0 +1,186 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: linear-gradient(to right top, #7df3fc, #6be4ff, #77d2ff, #99bdff, #bda5f5); */
+    /* background-color: #f4f5f7; */
+    background-color: white;
+    /* background-image: url("./images/quiet-working-space.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    /* height: 100vh; */
+}
+
+/* button {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* button:hover {
+    background-color: white;
+    color: #97caec;
+    font-weight: 800;
+} */
+
+header,
+footer,
+main {
+  margin: auto;
+  padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 150px;
+} */
+
+header {
+	margin: 0;
+	padding: 25px 0;
+	position:fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#nav ul {
+	text-align: center;
+}
+#nav ul li {
+	float: left;
+	padding: 0 0 0 30px;
+}
+
+#nav ul a {
+	color: rgb(63, 61, 61);
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	padding: 5px 5px;
+	/* font-family: 'novecentosanswide'; */
+	font-weight: normal;
+    border-radius: 3px;
+}
+
+
+#nav ul a:hover {
+    background-color: rgb(153, 181, 231);
+    color: white;
+}
+
+main {
+    padding: 100px;
+}
+
+h1 {
+	text-align:center;
+	/* font-family: 'Raleway', sans-serif; */
+	font-weight: bolder;
+	color: black;
+	font-size: 48px;
+	line-height: 64px;
+	display: block;
+	margin: 0;
+}
+
+h2 {
+	display: block;
+	text-align: center;
+	/* font-family: 'Raleway', sans-serif; */
+	font-size: 32px;
+	line-height: 36px;
+	color: black;
+	padding: 50px 0;
+    font-weight: bold;
+}
+
+.block-container {
+    /* border-top: 1px solid #000; */
+    padding-top: 50px;
+
+}
+
+/* skills */
+.skill_list{
+	width: 100%;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-brands{
+	display: block;
+	width: 121px;
+	height: 121px;
+}
+
+p {
+    padding: 0 0 25px;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+/* .portfolio */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.n-card {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer!important;
+    transition: all .2s linear;
+    overflow: hidden;
+}
+
+.n-card-img {
+    height: 200px;
+    width: 100%;
+    transition: all .2s linear;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+    border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.n-card-body {
+    border-top: 5px solid #000;
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Inter var",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
