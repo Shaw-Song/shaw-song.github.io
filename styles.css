@@ -234,6 +234,28 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+    .avatar {
+        height: 250px;
+        margin: 0 50px;
+    } 
+    .portfolio-img img {
+        height: 220px;
+    }
+
+    main p {
+        font-size: large;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+    .block-container h2 {
+        font-size: 30px;
+    }
     #nav ul a {
         font-size: 14px;
     }
