@@ -145,7 +145,6 @@ main p {
     margin: 100px 300px 100px;
 }
 .skill_list{
-	width: 100%;
 	display: flex;
     justify-content: space-around;
     align-items: center;
@@ -207,7 +206,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 400px) {
+@media screen and (max-width: 1200px) {
     .avatar {
         height: 250px;
         margin: 0 50px;
@@ -263,7 +262,6 @@ footer {
         margin: 25px;
     }
     .skill_list{
-        width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
